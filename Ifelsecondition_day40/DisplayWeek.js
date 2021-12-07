@@ -1,0 +1,12 @@
+var prompt = require('prompt-sync')();
+let num = prompt("Enter Number 0 to 6 : ");
+num =parseInt(num);
+var weekday=new Array(num);
+weekday[0]="Monday";
+weekday[1]="Tuesday";
+weekday[2]="Wednesday";
+weekday[3]="Thursday";
+weekday[4]="Friday";
+weekday[5]="Saturday";
+weekday[6]="Sunday";
+console.log("Today is " + weekday[num]);
